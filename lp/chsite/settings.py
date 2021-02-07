@@ -25,8 +25,10 @@ SECRET_KEY = '8n%tkds8vh6kr+gooj$d%ztz=94c8qawhiie)el%^j+ukqv^@@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['185.159.129.119', 'alphamattingdata.com']
+ALLOWED_HOSTS = ['*']
 
+
+STATIC_ROOT = '/static/'
 
 # Application definition
 
